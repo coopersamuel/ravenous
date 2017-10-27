@@ -1,5 +1,7 @@
-const clientId = '' /* client ID here */;
-const secret = '' /* secret key here */;
+import keys from '../config';
+
+const clientId = keys.clientId; // Yelp client ID here
+const secret = keys.secret; // Yelp client secret here
 let accessToken;
 
 let Yelp = {
